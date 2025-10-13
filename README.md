@@ -1,27 +1,46 @@
-# Console Tetris Game
+# TextTetris
 
-A Python console-based Tetris clone where blocks fall, and the player can rotate, move, and place pieces to clear rows and score points. The game features a **next piece preview**, **scoring**, **high score tracking**, and a **game over screen**.
+**Classic Tetris experience in your terminal — play, score, and challenge yourself!**
 
 ---
 
-## Features
+## What is Console Tetris Game?
 
-* **Classic Tetris gameplay** in the console.
-* **Piece Movement**:
+This is a **Python-based console Tetris game** where blocks fall, and the player can **move, rotate, and place pieces** to clear rows and earn points. The game includes **next piece preview, scoring, high score tracking, and a game over screen**, all within a stable console UI.
 
-  * Move left: `a`
-  * Move right: `d`
-  * Rotate: `w`
-  * Fast drop: `s`
-  * Pause: `Spacebar`
-* **Next Piece Preview**: Always shows the next piece at the top, taking up 3 rows for consistent layout.
-* **Scoring**:
+No installation beyond Python is needed — just run the game in your terminal!
 
-  * +1 point for successfully placing a piece
-  * +10 points for completing a row
-* **High Score Tracking**: Tracks the highest score achieved during the session.
-* **Game Over Screen**: Shows current and high scores and allows restarting by pressing any key.
-* **Stable UI**: Board size remains fixed, preventing layout shifts as pieces fall.
+---
+
+## Key Features
+
+* **Classic Tetris Gameplay:** Move, rotate, and drop pieces to clear rows.
+* **Next Piece Preview:** Always shows the upcoming piece at the top for a consistent layout.
+* **Scoring & High Score:** Earn points for placing pieces and clearing rows; track your highest score during the session.
+* **Game Over Screen:** Displays current and high scores, and lets you restart immediately.
+* **Stable Console UI:** The board size remains fixed, preventing layout shifts as pieces fall.
+
+---
+
+## How to Play
+
+### Controls
+
+| Key   | Action       |
+| ----- | ------------ |
+| w     | Rotate piece |
+| a     | Move left    |
+| s     | Fast drop    |
+| d     | Move right   |
+| Space | Pause game   |
+
+### Gameplay Mechanics
+
+* Pieces appear randomly from a set of predefined shapes.
+* The next piece is displayed at the top while the current piece falls.
+* Complete a row to clear it, and all blocks above fall down.
+* The game ends when a new piece cannot spawn at the top row.
+* On game over, your final score and high score are displayed. Press any key to restart.
 
 ---
 
@@ -43,45 +62,21 @@ A Python console-based Tetris clone where blocks fall, and the player can rotate
 python main.py
 ```
 
-4. Play the game using the controls listed above.
+4. Play the game using the controls above.
 
 ---
 
-## Controls
+## Optional Enhancements
 
-| Key     | Action           |
-| ------- | ---------------- |
-| `w`     | Rotate piece     |
-| `a`     | Move piece left  |
-| `s`     | Fast drop        |
-| `d`     | Move piece right |
-| `Space` | Pause game       |
+* Add colors for different pieces.
+* Implement levels with increasing speed.
+* Add a “hold piece” feature.
+* Save high score to a file.
+* Add sound effects for row completion and game over.
 
 ---
 
-## Gameplay Mechanics
-
-* Pieces appear randomly from a predefined set of shapes.
-* The **next piece** is displayed at the top while the current piece is falling.
-* When a row is completely filled, it is cleared, and all blocks above fall down.
-* The game continues until a new piece cannot spawn at the top row.
-* Upon game over, the **final score** and **high score** are displayed, and the player can restart the game.
-
----
-
-## Extending the Game
-
-Possible enhancements:
-
-* Add **colors** for different Tetris pieces.
-* Implement **levels** with increasing falling speed.
-* Add a **hold piece feature** to store a piece for later.
-* Save **high score to a file** to persist between sessions.
-* Add **sound effects** for row completion and game over.
-
----
-
-## Screenshot
+## Screenshot Example
 
 ```
 Score: 15
@@ -91,38 +86,38 @@ Next:
 [ ][ ][ ]
 [ ][ ][ ]
 
-
-+------------------------------+
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                              |
-|                        [ ]   |
-|                        [ ]   |
-|                        [ ]   |
-+------------------------------+
++-------------------------------+
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|                               |
+|          [ ][ ][ ]            |
+|          [ ]            [ ]   |
+|                         [ ]   |
+| [ ][ ][ ]   [ ]   [ ][ ][ ][ ]|
++------------------------- -----+
 ```
 
 ---
 
-## Author
+## Contact
 
-Kushal Gupta
+**Kushal Gupta**
 
----
+* Email: [guptakushal2003@gmail.com](mailto:guptakushal2003@gmail.com)
+* Portfolio: [guptakushal03.github.io/TechFolio](https://guptakushal03.github.io/TechFolio)
